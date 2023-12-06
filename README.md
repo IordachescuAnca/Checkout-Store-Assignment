@@ -108,7 +108,7 @@ To run the client file, run the following command from the root directory of the
 
 
 
-        **Example**: python3 -m train --experiment-name resnet_50 --dataset-path ComputerVision/data/reid/Market101 --model-name resnet18 --batch-size 32
+        **Example**: python3 -m train --experiment-name resnet_18_exo --dataset-path ComputerVision/data/reid/Market101 --model-name resnet18 --batch-size 32
 
 
 
