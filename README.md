@@ -119,7 +119,7 @@ To run the client file, run the following command from the root directory of the
 ![Example](https://github.com/IordachescuAnca/Checkout-Store-Assignment/blob/main/imgs/exp.png)
 
 
-The metrics employed in this evaluation are Recall@k, a widely-used measure for retrieval tasks that emphasizes the percentage of relevant items successfully retrieved within the top k results. The calculations were performed for k values of 1, 3, 5, 7, and 10.
+The metrics employed in this evaluation are Recall@k, a widely-used measure for retrieval tasks that emphasizes the percentage of relevant items successfully retrieved within the top k results. The calculations were performed for k values of 1, 3, 5, 10 and 20.
 
 An alternative strategy could involve training the network using Triplet loss, wherein anchor-positive and anchor-negative pairs are defined. Anchor positives would encompass relations containing photos of the same person, while anchor-negatives would include relations between two different photos. These pairs could be computed at the outset or through the utilization of a sampler.
 
