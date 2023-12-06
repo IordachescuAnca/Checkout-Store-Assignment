@@ -64,6 +64,13 @@ The most common metrics are:
 While YOLO provides bounding box predictions in each individual frame, the tracking algorithm helps by maintain consistent object detection across frames when they are momentarily not visible in certain frames. DeepSort is a popular choice as 
 it is based on deep learning approaches (unlike SORT) to extract features from bounding boxes enhances tracking precision when it comes to complex scenarios.
 
+
+Explaining the object detection system flow:
+
+- Run the YOLO model on each frame of the video to identify and obtain the position of the objects.
+- Extract the features from each bounding box using deepsort (a convolutional nn) in order to maintain motion prediction and link object detections across frames -> there might be frames where objects go out of view
+- Filter detections that provide low-confidence accuracy or based on object classes
+
 ## 2 - Person Reidentification System
 
 The reidentification problem occurs when we need to figure out if pedestrians seen in various camera shots or different clips from the same camera are actually the same people.
