@@ -83,6 +83,8 @@ To accomplish this, I developed a neural network structured upon a ResNet archit
 
 The foundational structure of the architecture underwent testing by utilizing pre-trained ResNet-18 and ResNet-50 models.
 
+The written code: [![link](link)](https://github.com/IordachescuAnca/Checkout-Store-Assignment/tree/main/person_reid).
+
 To run the client file, run the following command from the root directory of the project:
 
         Usage: python3 -m train [OPTIONS]
